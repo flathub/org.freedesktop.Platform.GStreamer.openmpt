@@ -1,7 +1,7 @@
 id: org.freedesktop.Platform.GStreamer.openmpt
-branch: '22.08'
+branch: '23.08'
 runtime: org.freedesktop.Platform
-runtime-version: '22.08'
+runtime-version: '23.08'
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
@@ -52,7 +52,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-        tag: 1.20.6 # matches o.fd.P//22.08
+        tag: 1.22.5 # matches o.fd.P//23.08
         disable-submodules: true
     # only install the plugin, none of the other gstreamer files
     no-make-install: true
