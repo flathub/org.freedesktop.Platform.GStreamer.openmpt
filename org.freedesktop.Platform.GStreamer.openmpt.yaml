@@ -34,12 +34,12 @@ modules:
       - --disable-tests
     sources:
       - type: archive
-        url: https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.7.3+release.autotools.tar.gz
-        sha512: c88b92409114435d1596d617c04eb2436afe93de611898708587e018c8b8eb6fe45865d2e9144b3647501faa39ba633616204a5f752cbbc88f84eda20444db35
+        url: https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.7.9+release.autotools.tar.gz
+        sha512: e0928d3dc439c3ed7296b97dc8b8e255db22bfd91fd3bc73d0bdca8262a5cb26dff0ba89e508a4443ebe34c34fc880b202a758a11fde31b75e1ebd5725819414
         x-checker-data:
           type: anitya
           project-id: 141468
-          url-template: "https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-$version+release.autotools.tar.gz"
+          url-template: https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-$version+release.autotools.tar.gz
 
   - name: gstreamer-plugins-bad
     buildsystem: meson
