@@ -4,8 +4,8 @@ Flatpak extension to add tracker music support to GStreamer-based applications v
 
 
 <div style="display: flex">
-<img src="./screenshots/gapless-hoffman.png" width="50%" style="object-fit: contain">
-<img src="./screenshots/strawberry-necros.png" width="50%" style="object-fit: contain">
+<img src="./screenshots/gapless-hoffman.png" width="48%" style="object-fit: contain">
+<img src="./screenshots/strawberry-necros.png" width="48%" style="object-fit: contain">
 </div>
 
 This extension contains the `openmpt` plugin from [`gst-plugins-bad`](https://gitlab.freedesktop.org/gstreamer/gstreamer/-/tree/main/subprojects/gst-plugins-bad) and its [`libopenmpt`](https://lib.openmpt.org/libopenmpt/) dependency.
