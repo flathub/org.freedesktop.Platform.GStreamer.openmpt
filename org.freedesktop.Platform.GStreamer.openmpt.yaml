@@ -36,6 +36,10 @@ modules:
       - type: archive
         url: https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.7.3+release.autotools.tar.gz
         sha512: c88b92409114435d1596d617c04eb2436afe93de611898708587e018c8b8eb6fe45865d2e9144b3647501faa39ba633616204a5f752cbbc88f84eda20444db35
+        x-checker-data:
+          type: anitya
+          project-id: 141468
+          url-template: "https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-$version+release.autotools.tar.gz"
 
   - name: gstreamer-plugins-bad
     buildsystem: meson
@@ -54,6 +58,7 @@ modules:
         url: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
         tag: 1.22.5 # matches o.fd.P//23.08
         disable-submodules: true
+        # no update checker information here, needs to stay pinned to ver in runtime
     # only install the plugin, none of the other gstreamer files
     no-make-install: true
     post-install:
