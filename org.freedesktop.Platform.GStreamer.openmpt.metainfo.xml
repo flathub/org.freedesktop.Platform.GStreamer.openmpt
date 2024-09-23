@@ -23,8 +23,8 @@
   <update_contact>flatpaks_AT_detjens.dev</update_contact>
 
   <releases>
-    <release version="0.7.2" date="2023-07-23"/>
-    <release version="0.7.3" date="2023-09-21"/>
-    <release version="0.7.9" date="2024-08-05"/>
+    <release version="0.7.2" date="2023-07-23"><url>https://lib.openmpt.org/libopenmpt/2023/06/18/security-updates-0.7.2-0.6.11-0.5.25-release-0.4.37/</url></release>
+    <release version="0.7.3" date="2023-09-21"><url>https://lib.openmpt.org/libopenmpt/2023/09/09/releases-0.7.3-0.6.12-0.5.26-0.4.38/</url></release>
+    <release version="0.7.9" date="2024-08-05"><url>https://lib.openmpt.org/libopenmpt/2024/07/21/security-updates-0.7.9-0.6.18-0.5.32-0.4.44/</url></release>
   </releases>
 </component>
