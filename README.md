@@ -2,7 +2,6 @@
 
 Flatpak extension to add tracker music support to GStreamer-based applications via OpenMPT.
 
-
 <div style="display: flex">
 <img src="./screenshots/gapless-hoffman.png" width="48%" style="object-fit: contain">
 <img src="./screenshots/strawberry-necros.png" width="48%" style="object-fit: contain">
@@ -27,5 +26,6 @@ Libopenmpt versions across org.fd.Platform releases:
 | `org.fd.Platform//21.08` [^1] | 0.7.2              |
 | `org.fd.Platform//22.08`      | 0.7.3              |
 | `org.fd.Platform//23.08`      | 0.7.3              |
+| `org.fd.Platform//24.08`      | 0.7.10             |
 
 [^1]: 21.08 branch support needs to be build manually from the previous repo at [`detjensrobert/org.freedesktop.Platform.GStreamer.openmpt`](https://github.com/detjensrobert/org.freedesktop.Platform.GStreamer.openmpt).
