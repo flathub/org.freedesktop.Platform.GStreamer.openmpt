@@ -34,8 +34,8 @@ modules:
       - --disable-tests
     sources:
       - type: archive
-        url: https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.7.13+release.autotools.tar.gz
-        sha512: 04e63c635dd6c63c2ce79db4eff971f10e4d14a12c7f143fc317a4b5f5188cd8cbf84fc5121057c2beff3a3e6b9b48767c02b9eb5c569accab3e6ff7322a9690
+        url: https://lib.openmpt.org/files/libopenmpt/src/libopenmpt-0.8.0+release.autotools.tar.gz
+        sha512: 3542534110f8e52158667f8ff6a6b327df4a672efbc292e52a82db82f1f228f255549f8ebf6ada8ba83631698a88b8a4c72e4f697c61d0425eba26c32abf42ed
         x-checker-data:
           type: anitya
           project-id: 141468
