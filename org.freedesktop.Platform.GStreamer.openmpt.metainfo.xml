@@ -28,5 +28,6 @@
     <release version="0.7.9" date="2024-08-05"><url>https://lib.openmpt.org/libopenmpt/2024/07/21/security-updates-0.7.9-0.6.18-0.5.32-0.4.44/</url></release>
     <release version="0.7.10" date="2024-09-22"><url>https://lib.openmpt.org/libopenmpt/2024/09/22/security-update-0.6.19-releases-0.7.10-0.5.33-0.4.45/</url></release>
     <release version="0.7.13" date="2025-01-06"><url>https://lib.openmpt.org/libopenmpt/2025/01/06/releases-0.7.13-0.6.22-0.5.36-0.4.48/</url></release>
+    <release version="0.8.0" date="2025-05-31"><url/>https://lib.openmpt.org/libopenmpt/2025/05/31/release-0.8.0/</release>
   </releases>
 </component>
