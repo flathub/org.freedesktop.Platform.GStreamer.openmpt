@@ -1,6 +1,3 @@
-# use host flatpak-builder, or run builder inside flatpak
-BUILDER   := $(shell command -v flatpak-builder || echo flatpak run org.flatpak.Builder)
-
 ID        := org.freedesktop.Platform.GStreamer.openmpt
 MANIFEST  := $(ID).yaml
 
@@ -8,10 +5,14 @@ BUILD_DIR := .flatpak/build
 REPO_DIR  := .flatpak/repo
 
 build:
-	$(BUILDER) --force-clean --install-deps-from=flathub $(BUILD_DIR) $(MANIFEST)
+	flatpak run org.flatpak.Builder --force-clean --install-deps-from=flathub $(BUILD_DIR) $(MANIFEST)
 
 install: build
-	$(BUILDER) --force-clean --user --install $(BUILD_DIR) $(MANIFEST)
+	flatpak run org.flatpak.Builder --force-clean --user --install $(BUILD_DIR) $(MANIFEST)
+
+lint:
+	flatpak run --command=flatpak-builder-lint org.flatpak.Builder manifest $(MANIFEST)
+	flatpak run --command=flatpak-builder-lint org.flatpak.Builder appstream $(ID).metainfo.xml
 
 uninstall:
 	flatpak uninstall --user $(ID)
