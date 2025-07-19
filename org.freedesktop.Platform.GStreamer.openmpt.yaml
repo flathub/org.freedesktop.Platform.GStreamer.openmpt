@@ -56,7 +56,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-        tag: 1.24.7 # matches o.fd.P//24.08
+        tag: 1.24.12 # matches o.fd.P//24.08
         disable-submodules: true
         # no update checker information here, needs to stay pinned to ver in runtime
     # only install the plugin, none of the other gstreamer files
