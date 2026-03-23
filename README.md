@@ -16,7 +16,7 @@ This extension contains the `openmpt` plugin from [`gst-plugins-bad`](https://gi
 This is available on [Flathub](https://flathub.org/apps/org.freedesktop.Platform.GStreamer.openmpt)!
 
 ```sh
-flatpak install flathub org.freedesktop.Platform.GStreamer.openmpt//24.08
+flatpak install flathub org.freedesktop.Platform.GStreamer.openmpt
 ```
 
 Libopenmpt versions across org.fd.Platform releases:
