@@ -57,6 +57,7 @@ modules:
       - type: git
         url: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
         tag: 1.26.10 # matches o.fd.P//25.08
+        commit: bfdc62185e243d3633aa916187a566d03a587792 # tag 1.26.10
         disable-submodules: true
         # no update checker information here, needs to stay pinned to ver in runtime
     # only install the plugin, none of the other gstreamer files
