@@ -52,8 +52,10 @@ modules:
       - -Dbad=enabled
       - -Dgst-plugins-bad:openmpt=enabled
       - -Dgst-full-plugins=openmpt
-      - -Dgstreamer:check=enabled  # not required, hack to fix build error (variable "plugins_cache_generator" not found)
       - --buildtype=release
+      # not required, hack to fix build error (variable "plugins_cache_generator" not found)
+      # upstream issue: https://gitlab.freedesktop.org/gstreamer/gstreamer/-/work_items/5094
+      - -Dgstreamer:check=enabled
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
