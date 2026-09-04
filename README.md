@@ -27,7 +27,7 @@ Libopenmpt versions across org.fd.Platform releases:
 | `org.fd.Platform//22.08`      | 0.7.3              |
 | `org.fd.Platform//23.08`      | 0.7.13             |
 | `org.fd.Platform//24.08`      | 0.8.2              |
-| `org.fd.Platform//25.08`      | 0.8.7              |
-| `org.fd.Platform//26.08`      | 0.8.7              |
+| `org.fd.Platform//25.08`      | 0.8.9              |
+| `org.fd.Platform//26.08`      | 0.8.9              |
 
 [^1]: 21.08 branch support needs to be build manually from the previous repo at [`detjensrobert/org.freedesktop.Platform.GStreamer.openmpt`](https://github.com/detjensrobert/org.freedesktop.Platform.GStreamer.openmpt).
