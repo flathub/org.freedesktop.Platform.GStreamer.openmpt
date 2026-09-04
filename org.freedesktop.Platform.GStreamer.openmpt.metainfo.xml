@@ -15,7 +15,7 @@
   <extends>org.freedesktop.Platform.GStreamer</extends>
 
   <url type="homepage">https://lib.openmpt.org/libopenmpt</url>
-  <url type="vcs-browser">https://source.openmpt.org/browse/openmpt</url>
+  <url type="vcs-browser">https://github.com/OpenMPT/openmpt/</url>
 
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>BSD-3-Clause AND MIT</project_license>
