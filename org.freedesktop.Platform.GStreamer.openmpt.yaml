@@ -1,7 +1,7 @@
 id: org.freedesktop.Platform.GStreamer.openmpt
-branch: '26.08'
+branch: '25.08'
 runtime: org.freedesktop.Platform
-runtime-version: '26.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 build-extension: true
 separate-locales: false
@@ -53,14 +53,11 @@ modules:
       - -Dgst-plugins-bad:openmpt=enabled
       - -Dgst-full-plugins=openmpt
       - --buildtype=release
-      # not required, hack to fix build error (variable "plugins_cache_generator" not found)
-      # upstream issue: https://gitlab.freedesktop.org/gstreamer/gstreamer/-/work_items/5094
-      - -Dgstreamer:check=enabled
     sources:
       - type: git
         url: https://gitlab.freedesktop.org/gstreamer/gstreamer.git
-        tag: 1.28.6 # matches o.fd.P//26.08
-        commit: 2d3e05cbdad68e47d645f548899b432dc9fb4473 # tag 1.28.6
+        tag: 1.26.10 # matches o.fd.P//25.08
+        commit: bfdc62185e243d3633aa916187a566d03a587792 # tag 1.26.10
         disable-submodules: true
         # no update checker information here, needs to stay pinned to ver in runtime
     # only install the plugin, none of the other gstreamer files
